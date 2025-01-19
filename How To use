@@ -1,0 +1,17 @@
+📖 How to Use 
+Using the application is quite simple.
+
+
+Add GitHub usernames in the main function to fetch their data:
+
+await fetchUser('username1');
+await fetchUser('username2');
+
+Run the program, and the following outputs will appear in the console:
+
+User details: Includes their GitHub ID, bio, number of repositories, etc.
+Repository details: Shows the name, description, stars, and fork status for each repository.
+Summary:
+A list of all fetched users.
+Total number of public repositories across all users.
+Top 5 users with the most repositories.
